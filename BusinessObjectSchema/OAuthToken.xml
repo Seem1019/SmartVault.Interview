@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<businessObject>
+	<propertyGroup>
+		<property name="AccessToken" type="string" />
+		<property name="RefreshToken" type="string" />
+		<property name="AccessTokenExpiration" type="System.DateTime" />
+	</propertyGroup>
+	<script>
+		CREATE TABLE OAuthToken (
+		AccessToken TEXT PRIMARY KEY,
+		RefreshToken TEXT,
+		AccessTokenExpiration TEXT
+		);
+	</script>
+</businessObject>

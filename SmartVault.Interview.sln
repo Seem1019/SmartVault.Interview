@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartVault.Program", "Smart
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartVault.DataGeneration", "SmartVault.DataGeneration\SmartVault.DataGeneration.csproj", "{88EADAAF-97EC-4786-B02E-C98FE95CFBFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartVault.Tests", "SmartVault.Tests\SmartVault.Tests.csproj", "{54284603-AAE5-46B7-91AE-91A1FF4182A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{88EADAAF-97EC-4786-B02E-C98FE95CFBFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88EADAAF-97EC-4786-B02E-C98FE95CFBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88EADAAF-97EC-4786-B02E-C98FE95CFBFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54284603-AAE5-46B7-91AE-91A1FF4182A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54284603-AAE5-46B7-91AE-91A1FF4182A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54284603-AAE5-46B7-91AE-91A1FF4182A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54284603-AAE5-46B7-91AE-91A1FF4182A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

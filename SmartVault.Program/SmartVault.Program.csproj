@@ -10,6 +10,16 @@
     <AdditionalFiles Include="..\BusinessObjectSchema\Account.xml" />
     <AdditionalFiles Include="..\BusinessObjectSchema\Document.xml" />
     <AdditionalFiles Include="..\BusinessObjectSchema\User.xml" />
+	  <AdditionalFiles Include="..\BusinessObjectSchema\OAuthToken.xml" />
+	  <AdditionalFiles Include="..\BusinessObjectSchema\OAuthConfig.xml" />
+	<None Update="appsettings.json">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper.Extensions.SQLite" Version="4.2.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>

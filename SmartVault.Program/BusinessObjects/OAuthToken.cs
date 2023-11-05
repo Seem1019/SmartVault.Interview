@@ -1,7 +1,6 @@
 ﻿namespace SmartVault.Program.BusinessObjects
 {
-    public partial class Document 
+    public partial class OAuthToken
     {
-
     }
 }
